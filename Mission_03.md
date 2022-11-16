@@ -19,7 +19,7 @@ First, you should see ``||basic:on start||`` block - whatever you put in this bl
 
 ## Step 2
 
-Inside ``||basic:on start||`` block is ``||music.playTone(494, music.beat(BeatFraction.Whole))||``. That means that Rotoy will play music note B for 1 beat.
+Inside ``||basic:on start||`` block is ``||music:play tone Middle B for 1 beat||``. That means that Rotoy will play music note B for 1 beat.
 
 ## Step 3
 
@@ -34,6 +34,10 @@ music.playTone(494, music.beat(BeatFraction.Whole))
 music.playTone(494, music.beat(BeatFraction.Whole))
 ```
 
-## Step 5
+## Step 5 @fullscreen
 
-Click ``|Download|`` to transfer your code to micro:bit!
+Once you are finished, you can test the song by clicking **PLAY** button
+
+## Step 6
+
+Click ``|Download|`` to move your code to micro:bit!
