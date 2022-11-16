@@ -1,15 +1,40 @@
+```template
+controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
+
+})
+scene.setBackgroundColor(9)
+let mySprite = sprites.create(img`
+    . . . . . . . .
+    . . . . . . . .
+    . . . . . . . .
+    . . . . . . . .
+    . . . . . . . .
+    . . . . . . . .
+    . . . . . . . .
+    . . . . . . . .
+
+    `, SpriteKind.Player)
+game.onUpdateInterval(1000, function () {
+
+})
+```
+
 # Mission3
 ```package
 maqueen=github:dfrobot/pxt-maqueen
 ```
 
-## Introduction @unplugged
+## Introduction @showdialog
 
-Hey there! Follow these steps to make Rotoy play music
+Are you a STEM-elf or a Composer-elf? Perhaps both?
 
 ## Step 1
 
-Inside ``||basic:on start||`` block, place ``||music:play tone||`` block.
+First, you should see ``||basic:on start||`` block - whatever you put in this block, micro:bit will do when Rotoy wakes up.
+
+## Step 2
+
+Next, find Music category and search for ``||music:play tone||`` block. Drag it and place it inside ``||basic:on start||`` block.
 
 ## Step 2 @showhint
 
