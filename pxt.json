@@ -6,7 +6,7 @@
         "radio": "*",
         "microphone": "*",
         "maqueen": "github:dfrobot/pxt-maqueen#v1.7.2",
-        "Advent Calendar": "github:iKarych/advent_calendar#3462637fc5e0ef404b6411068109284829ad6da9"
+        "Advent Calendar": "github:ikarych/advent_calendar#549e8ac6d922d4818fa4de05145085902f366ebf"
     },
     "files": [
         "main.blocks",
