@@ -1,35 +1,10 @@
 ```template
 for (let index = 0; index < 2; index++) {
     music.playTone(494, music.beat(BeatFraction.Whole))
-    music.playTone(494, music.beat(BeatFraction.Whole))
-    music.playTone(494, music.beat(BeatFraction.Double))
-    music.playTone(494, music.beat(BeatFraction.Whole))
-    music.playTone(494, music.beat(BeatFraction.Whole))
-    music.playTone(494, music.beat(BeatFraction.Double))
-    music.playTone(494, music.beat(BeatFraction.Whole))
-    music.playTone(587, music.beat(BeatFraction.Whole))
-    music.playTone(392, music.beat(BeatFraction.Whole))
-    music.playTone(440, music.beat(BeatFraction.Whole))
-    music.playTone(494, music.beat(BeatFraction.Double))
-    music.playTone(523, music.beat(BeatFraction.Whole))
-    music.playTone(523, music.beat(BeatFraction.Whole))
-    music.playTone(523, music.beat(BeatFraction.Whole))
-    music.playTone(523, music.beat(BeatFraction.Whole))
-    music.playTone(523, music.beat(BeatFraction.Whole))
-    music.playTone(494, music.beat(BeatFraction.Whole))
-    music.playTone(494, music.beat(BeatFraction.Whole))
-    music.playTone(494, music.beat(BeatFraction.Whole))
-    music.playTone(494, music.beat(BeatFraction.Whole))
-    music.playTone(494, music.beat(BeatFraction.Whole))
-    music.playTone(440, music.beat(BeatFraction.Whole))
-    music.playTone(440, music.beat(BeatFraction.Whole))
-    music.playTone(494, music.beat(BeatFraction.Whole))
-    music.playTone(440, music.beat(BeatFraction.Double))
-    music.playTone(587, music.beat(BeatFraction.Double))
 }
 ```
 
-# Mission3
+# Day 3
 ```package
 maqueen=github:dfrobot/pxt-maqueen
 ```
@@ -44,25 +19,21 @@ First, you should see ``||basic:on start||`` block - whatever you put in this bl
 
 ## Step 2
 
-Next, find Music category and search for ``||music:play tone||`` block. Drag it and place it inside ``||basic:on start||`` block.
-
-## Step 2 @showhint
-
-Use music sheet from the instructions to correctly assign the music note.
-
-```blocks
-music.playTone(494, music.beat(BeatFraction.Whole))
-```
+Inside ``||basic:on start||`` block is ``||music.playTone(494, music.beat(BeatFraction.Whole))||``. That means that Rotoy will play music note B for 1 beat.
 
 ## Step 3
 
-Create the entire song by adding more ``||music:play tone||`` blocks.
+There is also this green ``||loops:repeat [2] times||`` block that helps us play the song more than one time, but we will talk about later in a different mission.
+
+## Step 4 @showhint
+
+Do you remember that you have the music sheet from yesterday. Use it to code the Christmas song! To add more notes, open Music category and drag another ``||music:play tone||``
 
 ```blocks
 music.playTone(494, music.beat(BeatFraction.Whole))
-music.playTone(659, music.beat(BeatFraction.Whole))
+music.playTone(494, music.beat(BeatFraction.Whole))
 ```
 
-## Step 4
+## Step 5
 
 Click ``|Download|`` to transfer your code to micro:bit!
