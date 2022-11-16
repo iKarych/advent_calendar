@@ -34,10 +34,6 @@ music.playTone(494, music.beat(BeatFraction.Whole))
 music.playTone(494, music.beat(BeatFraction.Whole))
 ```
 
-## Step 5 @fullscreen
-
-Once you are finished, you can test the song by clicking **PLAY** button
-
 ## Step 6
 
-Click ``|Download|`` to move your code to micro:bit!
+Once you are ready to test, click ``|Download|`` to move your code to micro:bit!
