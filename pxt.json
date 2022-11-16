@@ -1,12 +1,13 @@
 {
     "name": "Advent Calendar",
+    "version": "0.0.1",
     "description": "",
     "dependencies": {
         "core": "*",
         "radio": "*",
         "microphone": "*",
         "maqueen": "github:dfrobot/pxt-maqueen#v1.7.2",
-        "Advent Calendar": "github:ikarych/advent_calendar#549e8ac6d922d4818fa4de05145085902f366ebf"
+        "Advent Calendar": "github:ikarych/advent_calendar"
     },
     "files": [
         "main.blocks",
