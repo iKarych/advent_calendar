@@ -1,22 +1,32 @@
 ```template
-controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
-
-})
-scene.setBackgroundColor(9)
-let mySprite = sprites.create(img`
-    . . . . . . . .
-    . . . . . . . .
-    . . . . . . . .
-    . . . . . . . .
-    . . . . . . . .
-    . . . . . . . .
-    . . . . . . . .
-    . . . . . . . .
-
-    `, SpriteKind.Player)
-game.onUpdateInterval(1000, function () {
-
-})
+for (let index = 0; index < 2; index++) {
+    music.playTone(494, music.beat(BeatFraction.Whole))
+    music.playTone(494, music.beat(BeatFraction.Whole))
+    music.playTone(494, music.beat(BeatFraction.Double))
+    music.playTone(494, music.beat(BeatFraction.Whole))
+    music.playTone(494, music.beat(BeatFraction.Whole))
+    music.playTone(494, music.beat(BeatFraction.Double))
+    music.playTone(494, music.beat(BeatFraction.Whole))
+    music.playTone(587, music.beat(BeatFraction.Whole))
+    music.playTone(392, music.beat(BeatFraction.Whole))
+    music.playTone(440, music.beat(BeatFraction.Whole))
+    music.playTone(494, music.beat(BeatFraction.Double))
+    music.playTone(523, music.beat(BeatFraction.Whole))
+    music.playTone(523, music.beat(BeatFraction.Whole))
+    music.playTone(523, music.beat(BeatFraction.Whole))
+    music.playTone(523, music.beat(BeatFraction.Whole))
+    music.playTone(523, music.beat(BeatFraction.Whole))
+    music.playTone(494, music.beat(BeatFraction.Whole))
+    music.playTone(494, music.beat(BeatFraction.Whole))
+    music.playTone(494, music.beat(BeatFraction.Whole))
+    music.playTone(494, music.beat(BeatFraction.Whole))
+    music.playTone(494, music.beat(BeatFraction.Whole))
+    music.playTone(440, music.beat(BeatFraction.Whole))
+    music.playTone(440, music.beat(BeatFraction.Whole))
+    music.playTone(494, music.beat(BeatFraction.Whole))
+    music.playTone(440, music.beat(BeatFraction.Double))
+    music.playTone(587, music.beat(BeatFraction.Double))
+}
 ```
 
 # Mission3
