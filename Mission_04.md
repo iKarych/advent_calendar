@@ -219,7 +219,7 @@ function ChristmasSongBeat () {
 ```
 
 ```template
-let playChristmasSong = false
+let playChristmasSong
 function ChristmasSong () {
 ChristmasSongBeat()
 }
