@@ -8,9 +8,6 @@ neopixel=github:microsoft/pxt-neopixel#v0.7.3
 ## Introduction @showdialog
 
 Alfie The Guardian! Let's flash some lights!
-```sig
-basic.showNumber(5)
-```
 
 ## Step 1
 
