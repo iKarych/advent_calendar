@@ -219,6 +219,13 @@ function ChristmasSongBeat () {
 }
 ```
 
+```template
+function ChristmasSong () {
+ChristmasSongBeat()
+}
+let playChristmasSong = false
+```
+
 # Day 4
 ```package
 maqueen=github:dfrobot/pxt-maqueen
@@ -249,12 +256,6 @@ Great! Do you remember yesterday's Christmas song? micro:bit was smart and place
 
 ```blocks
 ChristmasSong()
-```
-
-```ghost
-function ChristmasSong () {
-ChristmasSongBeat()
-}
 ```
 
 ## Step 4 @showhint
