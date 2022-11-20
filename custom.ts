@@ -11,16 +11,15 @@ enum MyEnum {
     Two
 }
 
-let playChristmasSong: boolean
-let index: number
-let listTone: number[]
-let listBeat: number[]
-
 /**
  * Custom blocks
  */
 //% weight=100 color=#0fbc11 icon=""
 namespace Advent {
+    let playChristmasSong: boolean
+    let index: number
+    let listTone: number[]
+    let listBeat: number[]
     /**
      * TODO: describe your function here
      * @param n describe parameter here, eg: 5
