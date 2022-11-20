@@ -201,14 +201,14 @@ Mission6.listTone = [
     ]
 Mission6.index = 0
 Mission6.strip = neopixel.create(DigitalPin.P15, 4, NeoPixelMode.RGB)
-Mission6.led0 = strip.range(0, 1)
-Mission6.led1 = strip.range(1, 1)
-Mission6.led2 = strip.range(2, 1)
-Mission6.led3 = strip.range(3, 1)
+Mission6.led0 = Mission6.strip.range(0, 1)
+Mission6.led1 = Mission6.strip.range(1, 1)
+Mission6.led2 = Mission6.strip.range(2, 1)
+Mission6.led3 = Mission6.strip.range(3, 1)
 function mainFunction () {
-    while (index < listTone.length) {
+    while (Mission6.index < Mission6.listTone.length) {
         DistractStorageElf()
-        index += 1
+        Mission6.index += 1
     }
 }
 input.onButtonPressed(Button.A, function () {
