@@ -13,7 +13,9 @@ namespace Mission4 {
     export let listTone: number[]
     export let listBeat: number[]
 
-    //% block
+    //% weight=90
+    //% block="play christmas song | %play"
+    //% play.defl=false
     export function ChristmasSong(play: boolean) {
         if (index != null)
         {
