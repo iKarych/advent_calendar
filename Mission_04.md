@@ -1,4 +1,4 @@
-```customs
+```customts
 let listBeat: number[] = []
 let listTone: number[] = []
 let index = 0
