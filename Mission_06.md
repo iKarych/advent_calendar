@@ -30,7 +30,7 @@ And let's leave the last option as ``||neopixel:RGB (GRB format)||`` - this tell
 
 
 ```block
-lights = neopixel.create(DigitalPin.P15, 4, NeoPixelMode.RGB)
+Advent.play(false)
 ```
 
 ## Step 4
@@ -38,8 +38,7 @@ lights = neopixel.create(DigitalPin.P15, 4, NeoPixelMode.RGB)
 Now, we know that ``||variables:lights||`` are connected to Alfie's lights! We can now change their color. To do that, set ``||variables:lights||`` to ``||neopixel:show color green||``.
 
 ```block
-let lights: neopixel.Strip = null
-lights.showColor(neopixel.colors(NeoPixelColors.Green))
+Advent.
 ```
 
 ## Step 5

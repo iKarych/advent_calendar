@@ -1,6 +1,4 @@
 ```customts
-
-namespace custom {
  // Whole = 1, Half = 2, Quarter = 4, Eighth = 8, Sixteenth = 16, Double = 32, Breve = 64
  let listBeat = [
  music.beat(BeatFraction.Whole),
@@ -216,13 +214,12 @@ function ChristmasSongBeat () {
  }
  }
 }
-}
 ```
 
 ```template
 let playChristmasSong = false
 function ChristmasSong () {
-custom.ChristmasSongBeat()
+ChristmasSongBeat()
 }
 ```
 
