@@ -1,10 +1,6 @@
 ```customts
-let listBeat: number[] = []
-let listTone: number[] = []
-let index = 0
-function ChristmasSongBeat () {
  // Whole = 1, Half = 2, Quarter = 4, Eighth = 8, Sixteenth = 16, Double = 32, Breve = 64
- listBeat = [
+ let listBeat = [
  music.beat(BeatFraction.Whole),
  music.beat(BeatFraction.Whole),
  music.beat(BeatFraction.Whole),
@@ -104,7 +100,7 @@ function ChristmasSongBeat () {
  music.beat(BeatFraction.Double),
  music.beat(BeatFraction.Double)
  ]
- listTone = [
+ let listTone = [
  294,
  494,
  440,
@@ -204,6 +200,8 @@ function ChristmasSongBeat () {
  440,
  587
  ]
+let index = 0
+function ChristmasSongBeat () {
  while (index <= listTone.length - 1) {
  if (playChristmasSong == true) {
  music.playTone(listTone[index], listBeat[index])
