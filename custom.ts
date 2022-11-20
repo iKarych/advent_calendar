@@ -16,10 +16,10 @@ enum MyEnum {
  */
 //% weight=100 color=#0fbc11 icon=""
 namespace Advent {
-    let playChristmasSong: boolean
-    let index: number
-    let listTone: number[]
-    let listBeat: number[]
+    export let playChristmasSong: boolean
+    export let index: number
+    export let listTone: number[]
+    export let listBeat: number[]
     /**
      * TODO: describe your function here
      * @param n describe parameter here, eg: 5
