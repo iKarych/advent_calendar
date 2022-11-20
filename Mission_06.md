@@ -3,11 +3,14 @@ maqueen=github:dfrobot/pxt-maqueen
 neopixel=github:microsoft/pxt-neopixel#v0.7.3
 ```
 
-# Day 5
+# Day 6
 
 ## Introduction @showdialog
 
 Alfie The Guardian! Let's flash some lights!
+```sig
+basic.showNumber(5)
+```
 
 ## Step 1
 
