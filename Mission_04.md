@@ -251,7 +251,7 @@ input.onButtonPressed(Button.B, function () {
 
 ## Step 3 @showhint
 
-Great! Do you remember yesterday's Christmas song? micro:bit was smart and placed it this blue block ``||functions:function ChristmasSong||`` So now, anytime you use this blue block Christmas song will play! Awesome, right?
+Great! Do you remember yesterday's Christmas song? micro:bit was smart and placed it this blue block ``||functions:function ChristmasSong||`` (and added some more music notes). So now, anytime you use this blue block Christmas song will play! Awesome, right?
 
 ```blocks
 function ChristmasSong() {
@@ -267,7 +267,7 @@ and when we want to stop it, we must say that ``||variables:playChristmasSong||`
 
 Check out the hint!
 
-```blocks
+```block
 playChristmasSong = true
 playChristmasSong = false
 ```
@@ -282,9 +282,9 @@ Do you know how to do it? Try to do it yourself, and if you need help, go to the
 
 ## Step 6
 
-To start the song with button A, we need to put in ``||input:on button A pressed||`` block 2 things: first, tell Alfie to start playing Christmas song (``||variables:set playChristmasSong||`` to ``||logic:true||``) and show which song is Christmas song (``||functions:call ChristmasSong||`` - you need to click ``||advanced:advanced||`` first).
+To start the song with button A, we need to put in ``||input:on button A pressed||`` block 2 things: first, tell Alfie to start playing Christmas song (``||variables:set playChristmasSong||`` to ``||logic:true||``) and show which song is Christmas song (``||functions:call ChristmasSong||`` - you need to click Advanced first).
 
-```blocks
+```block
 input.onButtonPressed(Button.A, function () {
  playChristmasSong = true
  ChristmasSong()

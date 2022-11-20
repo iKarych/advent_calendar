@@ -11,11 +11,11 @@ maqueen=github:dfrobot/pxt-maqueen
 
 ## Introduction @showdialog
 
-Are you a STEM-elf or a Composer-elf? Perhaps both?
+Are you a STEM-elf or a Composer-elf? Perhaps both? Now that you know how to read music notes, you can program them so Alfie can sing it!
 
 ## Step 1
 
-First, you should see ``||basic:on start||`` block - whatever you put in this block, micro:bit will do when Rotoy wakes up.
+First, you should see ``||basic:on start||`` block - whatever you put in this block, micro:bit (this is Alfie's brain) will do when Alfie wakes up.
 
 ## Step 2
 
@@ -23,13 +23,13 @@ Inside ``||basic:on start||`` block is ``||music:play tone Middle B for 1 beat||
 
 ## Step 3
 
-There is also this green ``||loops:repeat [2] times||`` block that helps us play the song more than one time, but we will talk about later in a different mission.
+There is also this green ``||loops:repeat [2] times||`` block that helps you play the song more than one time, but we will talk about that later in a different mission.
 
 ## Step 4 @showhint
 
 Do you remember that you have the music sheet from yesterday. Use it to code the Christmas song! To add more notes, open Music category and drag another ``||music:play tone||``
 
-```blocks
+```block
 music.playTone(494, music.beat(BeatFraction.Whole))
 music.playTone(494, music.beat(BeatFraction.Whole))
 ```
