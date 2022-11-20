@@ -1,5 +1,5 @@
 ```customts
-let listBeat = [
+listBeat = [
         music.beat(BeatFraction.Whole),
         music.beat(BeatFraction.Whole),
         music.beat(BeatFraction.Whole),
@@ -99,7 +99,7 @@ let listBeat = [
         music.beat(BeatFraction.Double),
         music.beat(BeatFraction.Double)
     ]
-    let listTone = [
+listTone = [
         294,
         494,
         440,
@@ -199,7 +199,8 @@ let listBeat = [
         440,
         587
     ]
-    let index = 0
+index = 0
+playChristmasSong = true
 ```
 
 ```package

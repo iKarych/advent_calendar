@@ -1,1 +1,1 @@
-Advent.play(true)
+Advent.play()
