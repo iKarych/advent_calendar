@@ -47,7 +47,7 @@ namespace Advent {
      */
     //% block
     export function play(playChristmasSong: boolean) {
-        while (index <= listTone.length - 1) {
+        while (index < listTone.length) {
             if (playChristmasSong == true) {
                 music.playTone(listTone[index], listBeat[index])
             } else if (playChristmasSong == false) {
