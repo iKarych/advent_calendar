@@ -222,7 +222,7 @@ function ChristmasSongBeat () {
 ```template
 let playChristmasSong = false
 function ChristmasSong () {
-ChristmasSongBeat()
+custom.ChristmasSongBeat()
 }
 ```
 
