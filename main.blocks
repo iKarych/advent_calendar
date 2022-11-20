@@ -1,1 +1,1 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="Ck-ycV2xc1T(0oX05$9I" x="0" y="0"></block></xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="JRq3^^y*(5TcU*/7c/=`" x="0" y="0"><statement name="HANDLER"><block type="Advent_play" id="*}=g!i^W-BSngqx0K}dv"><value name="playChristmasSong"><shadow type="logic_boolean" id="eIih!/(AX/6Q4l8BOcA%"><field name="BOOL">TRUE</field></shadow></value></block></statement></block></xml>
