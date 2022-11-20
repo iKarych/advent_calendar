@@ -3,7 +3,7 @@ let listBeat: number[] = []
 let listTone: number[] = []
 let index = 0
 let playChristmasSong = false
-function ChristmasSong () {
+function ChristmasSongBeat () {
     // Whole = 1, Half = 2, Quarter = 4, Eighth = 8, Sixteenth = 16, Double = 32, Breve = 64
     listBeat = [
     music.beat(BeatFraction.Whole),
@@ -249,6 +249,12 @@ Great! Do you remember yesterday's Christmas song? micro:bit was smart and place
 
 ```blocks
 ChristmasSong()
+```
+
+```ghost
+function ChristmasSong () {
+ChristmasSongBeat()
+}
 ```
 
 ## Step 4 @showhint
