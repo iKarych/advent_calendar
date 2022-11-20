@@ -233,10 +233,10 @@ input.onButtonPressed(Button.B, function () {
 
 ## Step 3 @showhint
 
-Great! Do you remember yesterday's Christmas song? micro:bit was smart and placed it this green block ``||Mission4:ChristmasSong||`` (and added some more music notes). So now, anytime you use this green block Christmas song will play! Awesome, right?
+Great! Do you remember yesterday's Christmas song? micro:bit was smart and placed it this red block ``||Mission4:play christmas song||`` (and added some more music notes). So now, anytime you use this red block Christmas song will play! Awesome, right?
 
 ```blocks
-Mission4.ChristmasSong()
+Mission4.ChristmasSong(true)
 ```
 
 ## Step 4 @showhint
@@ -263,7 +263,7 @@ Do you know how to do it? Try to do it yourself, and if you need help, go to the
 
 ## Step 6
 
-To start the song with button A, we need to put in ``||input:on button A pressed||`` block 2 things: first, tell Alfie to start playing Christmas song (``||variables:set playChristmasSong||`` to ``||logic:true||``) and show which song is Christmas song (``||functions:call ChristmasSong||`` - you need to click Advanced first).
+To start the song with button A, we need to put in ``||input:on button A pressed||`` block 2 things: first, tell Alfie to start playing Christmas song (``||variables:set playChristmasSong||`` to ``||logic:true||``) and put it in the Christmas song (``||Mission4:play christmas song||`` - you need to click Advanced first).
 
 ```block
 input.onButtonPressed(Button.A, function () {

@@ -1,5 +1,5 @@
 ```customts
-listBeat = [
+Mission6.listBeat = [
         music.beat(BeatFraction.Whole),
         music.beat(BeatFraction.Whole),
         music.beat(BeatFraction.Whole),
@@ -99,7 +99,7 @@ listBeat = [
         music.beat(BeatFraction.Double),
         music.beat(BeatFraction.Double)
     ]
-listTone = [
+Mission6.listTone = [
         294,
         494,
         440,
@@ -199,8 +199,26 @@ listTone = [
         440,
         587
     ]
-index = 0
-playChristmasSong = true
+Mission6.index = 0
+Mission6.strip = neopixel.create(DigitalPin.P15, 4, NeoPixelMode.RGB)
+Mission6.led0 = strip.range(0, 1)
+Mission6.led1 = strip.range(1, 1)
+Mission6.led2 = strip.range(2, 1)
+Mission6.led3 = strip.range(3, 1)
+function mainFunction () {
+    while (index < listTone.length) {
+        DistractStorageElf()
+        index += 1
+    }
+}
+input.onButtonPressed(Button.A, function () {
+    mainFunction()
+})
+```
+
+```template
+function DistractStorageElf () {
+}
 ```
 
 ```package
@@ -212,61 +230,39 @@ neopixel=github:microsoft/pxt-neopixel#v0.7.3
 
 ## Introduction @showdialog
 
-Alfie The Guardian! Let's flash some lights!
+Distracting Storage-Elf
 
 ## Step 1
 
-Alfie has to alert Alex when it is ok to sneak into Grumio's room and when she needs to hide.
+To distract Storage-Elf, you must use all the skills that you have learnt so far! But don't worry micro:bit remembers everything, so it won't be hard!
 
 ## Step 2
 
-Alfie has 4 lights. We have to do few steps to turn them on.
+Let's start with a function. Function is a neat blue block ``||functions:function DistractStorageElf||`` where you can put other blocks and just run, so all the blocks run together! Clever, huh?
 
-First, choose ``||neopixel:Neopixel||`` from the toolbox.
-
-## Step 3 @showhint
-
-Pick the first block.
-
-We need to call our lights - let's call them ``||variables:lights||``. By default, they are called ``||variables:strip||``, but you can change them by clicking arrow next to the name and click ``||variables:Rename variable...||``
-Then, we need to tell micro:bit where are the lights connected - all Alfie's lights are on ``||neopixel:P15||``.
-There are 4 lights, so type ``||neopixel:4||``.
-And let's leave the last option as ``||neopixel:RGB (GRB format)||`` - this tells micro:bit how to display colors correctly (RGB means [R]ed, [G]reen, [B]lue).
-
+There is already a function for you in the workspace.
 
 ```block
-Advent.play(false)
+function DistractStorageElf () {
+}
 ```
+
+## Step 3
+
+micro:bit has placed all the things that you have learnt so far in this new blue block ``||Mission6:Mission 6||``. Open it and place ``||Mission6:play christmas song||``, ``||Mission6:dance||`` and ``||Mission6:flash lights||`` in your new function.
 
 ## Step 4
 
-Now, we know that ``||variables:lights||`` are connected to Alfie's lights! We can now change their color. To do that, set ``||variables:lights||`` to ``||neopixel:show color green||``.
+If you are not sure how to do it, here's a hint
 
 ```block
-Advent.
+function DistractStorageElf () {
+    Mission6.ChristmasSong()
+    Mission6.Dance()
+    Mission6.Flash()
+}
 ```
 
 ## Step 5
 
-Now it's time to correctly program the colors. To do that, we will use the skill that you learnt yesterday - buttons.
-
-Put button A and button B blocks in the workspace. Let's make some logic:
-- when button A is pressed - it is safe; Alfie shows green colors,
-- when button B is pressed - Grumio alert, HIDE; Alfie shows red colors.
-
-Check out next step if you need some help!
-
-## Step 5
-
-``|Download|`` when you are ready, and if you need some help, use the hint button.
-
-```blocks
-let lights: neopixel.Strip = null
-lights = neopixel.create(DigitalPin.P15, 4, NeoPixelMode.RGB)
-input.onButtonPressed(Button.A, function () {
-    lights.showColor(neopixel.colors(NeoPixelColors.Green))
-})
-input.onButtonPressed(Button.B, function () {
-    lights.showColor(neopixel.colors(NeoPixelColors.Red))
-})
-```
+``|Download|`` when you are ready, and click button A to distract the elf!!!
