@@ -1,6 +1,6 @@
 ```customts
  // Whole = 1, Half = 2, Quarter = 4, Eighth = 8, Sixteenth = 16, Double = 32, Breve = 64
- Advent.listBeat = [
+ Mission4.listBeat = [
  music.beat(BeatFraction.Whole),
  music.beat(BeatFraction.Whole),
  music.beat(BeatFraction.Whole),
@@ -100,7 +100,7 @@
  music.beat(BeatFraction.Double),
  music.beat(BeatFraction.Double)
  ]
- Advent.listTone = [
+ Mission4.listTone = [
  294,
  494,
  440,
@@ -200,8 +200,7 @@
  440,
  587
  ]
-Advent.index = 0
-}
+Mission4.index = 0
 ```
 
 ```template
@@ -234,11 +233,10 @@ input.onButtonPressed(Button.B, function () {
 
 ## Step 3 @showhint
 
-Great! Do you remember yesterday's Christmas song? micro:bit was smart and placed it this blue block ``||functions:function ChristmasSong||`` (and added some more music notes). So now, anytime you use this blue block Christmas song will play! Awesome, right?
+Great! Do you remember yesterday's Christmas song? micro:bit was smart and placed it this green block ``||Mission4:ChristmasSong||`` (and added some more music notes). So now, anytime you use this green block Christmas song will play! Awesome, right?
 
 ```blocks
-function ChristmasSong() {
-ChristmasSongBeat()}
+Mission4.ChristmasSong()
 ```
 
 ## Step 4 @showhint

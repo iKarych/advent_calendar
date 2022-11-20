@@ -8,7 +8,37 @@
  * Custom blocks
  */
 //% weight=100 color=#0fbc11 icon=""
-namespace Advent {
+namespace Mission4 {
+    export let index: number
+    export let listTone: number[]
+    export let listBeat: number[]
+
+    //% block
+    export function ChristmasSong(play: boolean) {
+        if (index != null)
+        {
+            while (index < listTone.length) {
+                if (play == true) {
+                    music.playTone(listTone[index], listBeat[index])
+                } else if (play == false) {
+                    break;
+                }
+                index += 1
+                if (index == listTone.length - 1) {
+                    index = 0
+                }
+            }
+        }
+    }
+
+}
+
+
+/**
+ * Custom blocks
+ */
+//% weight=100 color=#0fbc11 icon=""
+namespace Mission5 {
     export let index: number
     export let listTone: number[]
     export let listBeat: number[]
@@ -19,8 +49,7 @@ namespace Advent {
      */
     //% block
     export function play(playChristmasSong: boolean) {
-        if (index != null)
-        {
+        if (index != null) {
             while (index < listTone.length) {
                 if (playChristmasSong == true) {
                     music.playTone(listTone[index], listBeat[index])
