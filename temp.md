@@ -1,6 +1,6 @@
 ```customts
  // Whole = 1, Half = 2, Quarter = 4, Eighth = 8, Sixteenth = 16, Double = 32, Breve = 64
- Advent.let listBeat = [
+ Advent.listBeat = [
  music.beat(BeatFraction.Whole),
  music.beat(BeatFraction.Whole),
  music.beat(BeatFraction.Whole),
@@ -100,7 +100,7 @@
  music.beat(BeatFraction.Double),
  music.beat(BeatFraction.Double)
  ]
- Advent.let listTone = [
+ Advent.listTone = [
  294,
  494,
  440,
@@ -200,12 +200,12 @@
  440,
  587
  ]
-Advent.let index = 0
+Advent.index = 0
 }
 ```
 
 ```template
-let Advent.playChristmasSong = false
+let playChristmasSong = false
 ```
 
 # temp
