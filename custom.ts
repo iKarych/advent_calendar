@@ -61,34 +61,50 @@ namespace Mission6 {
 }
 
 
+// /**
+//  * Custom blocks
+//  */
+// //% weight=100 color=#0fbc11 icon=""
+// namespace Mission5 {
+//     export let index: number
+//     export let listTone: number[]
+//     export let listBeat: number[]
+
+//     /**
+//      * TODO: describe your function here
+//      * @param value describe value here, eg: 5
+//      */
+//     //% block
+//     export function play(playChristmasSong: boolean) {
+//         if (index != null) {
+//             while (index < listTone.length) {
+//                 if (playChristmasSong == true) {
+//                     music.playTone(listTone[index], listBeat[index])
+//                 } else if (playChristmasSong == false) {
+//                     break;
+//                 }
+//                 index += 1
+//                 if (index == listTone.length - 1) {
+//                     index = 0
+//                 }
+//             }
+//         }
+//     }
+
+// }
+
 /**
  * Custom blocks
  */
-//% weight=100 color=#0fbc11 icon=""
-namespace Mission5 {
-    export let index: number
-    export let listTone: number[]
-    export let listBeat: number[]
-
-    /**
-     * TODO: describe your function here
-     * @param value describe value here, eg: 5
-     */
-    //% block
-    export function play(playChristmasSong: boolean) {
-        if (index != null) {
-            while (index < listTone.length) {
-                if (playChristmasSong == true) {
-                    music.playTone(listTone[index], listBeat[index])
-                } else if (playChristmasSong == false) {
-                    break;
-                }
-                index += 1
-                if (index == listTone.length - 1) {
-                    index = 0
-                }
-            }
-        }
+//% weight=100 color=#3958D3 icon="\uf06b"
+namespace Mission8 {
+    //% block="gift image"
+    export function iconImage(): Image {
+            return images.createImage(`
+                                        . # . # .
+                                        # # # # #
+                                        # # # # #
+                                        . # # # .
+                                        . . # . .`);
     }
-
 }
