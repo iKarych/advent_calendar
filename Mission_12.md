@@ -1,13 +1,3 @@
-```customts
-basic.forever(function () {
-    if (shakenNumber == 5) {
-        basic.showIcon(IconNames.Happy)
-        music.playSoundEffect(music.builtinSoundEffect(soundExpression.happy), SoundExpressionPlayMode.UntilDone)
-        shakenNumber = 0
-    }
-})
-```
-
 ```template
 input.onGesture(Gesture.Shake, function () {
 	
@@ -26,17 +16,12 @@ Ok, so there's this gift showing up on micro:bit - you can see it when you click
 
 ## Step 2
 
-Alex said that shaking Alfie 5 times might open it! Use your knowledge from before and create a counter!
+Alex said that shaking Alfie 5 times might open it! Use your knowledge from before and create a counter - ``||variables:shakenNumber||``!
+Put it in our shake block, and display it on micro:bit as before.
 
 ## Step 3
 
-Now we need to change ``||variables:shakenNumber||`` everytime, Alfie is shaken.
-For example, the first time we shake Alfie, ``||variables:shakenNumber||`` must be 1, the second time - 2, the third - 3, and so on...
-To do that, there's this smart block ``||variables:change shakenNumber by||``, let's use it:
-
-```block
-shakenNumber += 1
-```
+Now, we need to add some logic - add ``||variables:shakenNumber||``
 
 ## Step 4
 

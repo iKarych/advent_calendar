@@ -1,13 +1,3 @@
-```customts-ignore
-basic.forever(function () {
-    if (shakenNumber == 5) {
-        basic.showIcon(IconNames.Happy)
-        music.playSoundEffect(music.builtinSoundEffect(soundExpression.happy), SoundExpressionPlayMode.UntilDone)
-        shakenNumber = 0
-    }
-})
-```
-
 ```template
 input.onGesture(Gesture.Shake, function () {
 	
@@ -27,6 +17,7 @@ Let's learn a bit more about variables! Yesterday's mission was all about settin
 But variables are so much more than just saying true/false. Today we will use it to store a number (and change it everytime we shake Alfie).
 
 ```ghost
+let hi = 0
 shakenNumber = true
 shakenNumber = false
 ```
