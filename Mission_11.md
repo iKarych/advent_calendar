@@ -3,8 +3,8 @@ basic.forever(function () {
     if (shakenNumber == 5) {
         basic.showIcon(IconNames.Happy)
         music.playSoundEffect(music.builtinSoundEffect(soundExpression.happy), SoundExpressionPlayMode.UntilDone)
+        shakenNumber = 0
     }
-    shakenNumber = 0
 })
 ```
 
