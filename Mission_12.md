@@ -11,7 +11,7 @@ basic.forever(function () {
             `)
         music.startMelody(music.builtInMelody(Melodies.Entertainer), MelodyOptions.Once)
         played = true
-    } else {
+    } else if (!(played)) {
         basic.showLeds(`
             . # . # .
             . . # . .
