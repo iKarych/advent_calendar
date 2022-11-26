@@ -52,9 +52,13 @@ shakenNumber += 1
 
 ## Step 4
 
-Awesome, now, all that remains is to put block from previous step into our shake block. And display the value on micro:bit.
+We also need to use block ``||Mission11:wake up at||`` and put there ``||variables:shakenNumber||``. This checks if Alfie is awake already!
 
 ## Step 5
+
+Awesome, now, all that remains is to put block from previous step into our shake block and display the value on micro:bit.
+
+## Step 6
 
 Here's hint if you need it!
 
@@ -62,11 +66,12 @@ Here's hint if you need it!
 input.onGesture(Gesture.Shake, function () {
     shakenNumber += 1
     basic.showNumber(shakenNumber)
+    Mission11.wakeUp(shakenNumber)
 })
 let shakenNumber = 0
 shakenNumber = 0
 ```
 
-## Step 6
+## Step 7
 
 ``|Download|`` the code and try to find out how much shaking is required to wake up Alfie!
