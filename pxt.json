@@ -22,7 +22,8 @@
         "Mission_08.md",
         "Mission_09.md",
         "Mission_01.md",
-        "Mission_10.md"
+        "Mission_10.md",
+        "Mission_11.md"
     ],
     "testFiles": [
         "test.ts"
