@@ -1,6 +1,3 @@
-```template
-```
-
 # Day 8
 
 ## Introduction @showdialog

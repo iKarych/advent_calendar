@@ -1,4 +1,4 @@
-```customts-ignore
+```customts
 basic.forever(function () {
     if (shakenNumber == 5) {
         basic.showIcon(IconNames.Happy)
@@ -14,31 +14,19 @@ input.onGesture(Gesture.Shake, function () {
 })
 ```
 
-# Day 11
+# Day 12
 
 ## Introduction @showdialog
 
-Program Alfie to show you how many times he has been shaken!
+SHAKE 5 times
 
 ## Step 1
 
-Let's learn a bit more about variables! Yesterday's mission was all about setting ``||variables:speakSled||`` to ``||logic:true||`` or ``||logic:false||``.
-
-But variables are so much more than just saying true/false. Today we will use it to store a number (and change it everytime we shake Alfie).
-
-```ghost
-shakenNumber = true
-shakenNumber = false
-```
+Ok, so there's this gift showing up on micro:bit - you can see it when you click play on the left. But it's closed...
 
 ## Step 2
 
-We want to count how many times we have already shaken Alfie! To do that, we need a new variable - let's call it ``||variables:shakenNumber||``.
-As a starting point, we want to set this variable to 0, because in the beginning we didn't shake Alfie at all.
-
-```blocks
-let shakenNumber = 0
-```
+Alex said that shaking Alfie 5 times might open it! Use your knowledge from before and create a counter!
 
 ## Step 3
 
