@@ -33,7 +33,7 @@ let shakenFiveTimes = false
 
 As long as Alfie displays a happy face, Alex will know that they can keep on going! 
 
-## Step
+## Step 1
 
 You might have noticed that we have been using blue blocks ``||basic:on start||`` and ``||basic:forever||`` in quite a few missions.
 It's time to talk a bit more about them.

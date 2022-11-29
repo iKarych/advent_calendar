@@ -4,10 +4,11 @@ for (let index = 0; index < 2; index++) {
 }
 ```
 
-# Day 3
 ```package
-maqueen=github:dfrobot/pxt-maqueen
+maqueen=github:dfrobot/pxt-maqueen#v1.7.2
 ```
+
+# Day 3
 
 ## Introduction @showdialog
 
