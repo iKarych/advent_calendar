@@ -30,7 +30,7 @@ There is also this green ``||loops:repeat [2] times||`` block that helps you pla
 
 Now, it's time to use your skills to program music notes and create Christmas song! To add more notes, open Music category and drag another ``||music:play tone||``
 
-Hit next to get thee first set of notes!
+Hit next to get the first set of notes!
 
 ```block
 music.playTone(494, music.beat(BeatFraction.Whole))
