@@ -30,17 +30,37 @@ There is also this green ``||loops:repeat [2] times||`` block that helps you pla
 
 Now, it's time to use your skills to program music notes and create Christmas song! To add more notes, open Music category and drag another ``||music:play tone||``
 
-Hit next.
-
-![Agent building a tower](https://raw.githubusercontent.com/iKarych/advent_calendar/master/docs/static/jingle_bells_1.jpg)
-
-
+Hit next to get thee first set of notes!
 
 ```block
 music.playTone(494, music.beat(BeatFraction.Whole))
 music.playTone(494, music.beat(BeatFraction.Whole))
 ```
 
-## Step 6
+## Step 5 @showhint
+
+Here is the first few notes!
+
+![Part 1](https://raw.githubusercontent.com/iKarych/advent_calendar/master/docs/static/jingle_bells_1.jpg)
+
+## Step 6 @showhint
+
+And the next batch!
+
+![Part 2](https://raw.githubusercontent.com/iKarych/advent_calendar/master/docs/static/jingle_bells_2.jpg)
+
+## Step 7 @showhint
+
+Almost there!
+
+![Part 3](https://raw.githubusercontent.com/iKarych/advent_calendar/master/docs/static/jingle_bells_3.jpg)
+
+## Step 8 @showhint
+
+That's the last one!
+
+![Part 4](https://raw.githubusercontent.com/iKarych/advent_calendar/master/docs/static/jingle_bells_4.jpg)
+
+## Step 9
 
 Once you are ready to test, click ``|Download|`` to move your code to micro:bit!
