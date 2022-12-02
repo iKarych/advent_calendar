@@ -32,7 +32,9 @@ Now, it's time to use your skills to program music notes and create Christmas so
 
 Hit next.
 
-![Agent building a tower](/static/jingle_bells_1.jpg)
+![Agent building a tower](https://raw.githubusercontent.com/iKarych/advent_calendar/master/docs/static/jingle_bells_1.jpg
+
+
 
 ```block
 music.playTone(494, music.beat(BeatFraction.Whole))
