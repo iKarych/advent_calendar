@@ -63,4 +63,4 @@ That's the last one!
 
 ## Step 9
 
-Once you are ready to test, click ``|Download|`` to move your code to micro:bit!
+Once you are ready to test, click ``|Download|`` to move your code to micro:bit! Now go back to the chapter!
