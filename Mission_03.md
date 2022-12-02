@@ -28,7 +28,11 @@ There is also this green ``||loops:repeat [2] times||`` block that helps you pla
 
 ## Step 4 @showhint
 
-Do you remember that you have the music sheet from yesterday. Use it to code the Christmas song! To add more notes, open Music category and drag another ``||music:play tone||``
+Now, it's time to use your skills to program music notes and create Christmas song! To add more notes, open Music category and drag another ``||music:play tone||``
+
+Hit next.
+
+![Agent building a tower](/static/jingle_bells_1.jpg)
 
 ```block
 music.playTone(494, music.beat(BeatFraction.Whole))
