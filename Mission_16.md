@@ -85,7 +85,7 @@ So now, let's spin Alfie left for 1 second and then change direction for another
 
 ## Step 9
 
-Here's help if you need It
+Here's help if you need it
 
 ```block
  input.onButtonPressed(Button.A, function () {

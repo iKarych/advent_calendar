@@ -73,3 +73,22 @@ namespace Mission11 {
         }
     }
 }
+
+/**
+ * Custom blocks
+ */
+//% weight=100 color=#3958D3 icon="\uf06b"
+namespace Mission17 {
+    //% block="spin"
+    export function spin() {
+        if (Math.randomBoolean()) {
+            maqueen.motorRun(maqueen.Motors.M1, maqueen.Dir.CW, 100)
+            maqueen.motorRun(maqueen.Motors.M2, maqueen.Dir.CCW, 100)
+        } else {
+            maqueen.motorRun(maqueen.Motors.M2, maqueen.Dir.CW, 100)
+            maqueen.motorRun(maqueen.Motors.M1, maqueen.Dir.CCW, 100)
+        }
+        basic.pause(100 * randint(1, 10))
+        maqueen.motorStop(maqueen.Motors.All)
+    }
+}
