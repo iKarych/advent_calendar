@@ -29,6 +29,12 @@ The second part is very similar as using buttons or gestures. With ``||input:on 
 
 micro:bit saved your spinning mission from yesterday and placed it in this small function ``||Mission17:spin||``.
 
+```ghost
+input.onSound(DetectedSound.Loud, function () {
+    Mission17.spin()   
+})
+```
+
 ## Step 5
 
 Assemble the code and try it out. ``|Download|`` it and return to the chapter!
