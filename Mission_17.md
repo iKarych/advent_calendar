@@ -14,7 +14,7 @@ To listen to enemies, we need to use Alfie's microphone. So, we need to do two t
 
 ## Step 2
 
-First, we need to configure Alfie's microphone using ``||input:set loud threshold to []||``.
+First, we need to configure Alfie's microphone using ``||input:set loud threshold to []||``. It's hidden ``||input:Input||`` ``||input:more||``.
 Let's just set it to 128 (that's a value in the middle, so you can lower it if Alfie doesn't react to sounds, or increase it if Alfie reacts too often.)
 
 ```blocks

@@ -11,7 +11,7 @@ Did you know that micro:bit has a temperature sensor? It measures it by checking
 ## Step 2
 
 To use it, you need ``||input:temperature (°C)||``. To display it, use ``||basic:show number||``.
-And perhaps use one of the button blocks to call it everytime you press it
+And perhaps use one of the button blocks to call it everytime you press it.
 
 ## Step 3
 
