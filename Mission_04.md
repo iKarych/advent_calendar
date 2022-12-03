@@ -250,7 +250,7 @@ input.onButtonPressed(Button.B, function () {
 
 ## Step 3 @showhint
 
-Great! Do you remember yesterday's Christmas song? micro:bit was smart and placed it this blue block ``||functions:function ChristmasSong||`` (and added some more music notes). So now, anytime you use this blue block Christmas song will play! Awesome, right?
+Great! Do you remember yesterday's Christmas song? micro:bit was smart and placed this blue block ``||functions:function ChristmasSong||`` (and added some more music notes). So now, anytime you use this blue block Christmas song will play! Awesome, right?
 
 ```blocks
 function ChristmasSong() {
@@ -259,7 +259,7 @@ ChristmasSongBeat()}
 
 ## Step 4 @showhint
 
-We also need to figure out how to pause the song. For that, we will use this red block ``||variables:playChristmasSong||`` - this is called a variable. We will talk about more in a different mission, but what you need to know right now is that it can hold information if Alfie should play the song or not.
+We also need to figure out how to pause the song. For that, we will use this red block ``||variables:playChristmasSong||`` - this is called a variable. We will talk about it more in a different mission, but what you need to know right now is that it can hold information if Alfie should play the song or not.
 
 If we want to tell Alfie to play a song, we need to tell micro:bit that ``||variables:playChristmasSong||`` is ``||logic:true||``,
 and when we want to stop it, we must say that ``||variables:playChristmasSong||`` is ``||logic:false||``.
@@ -302,4 +302,4 @@ input.onButtonPressed(Button.B, function () {
 
 ## Step 8
 
-That's all! Test your code with Alfie - hit ``|Download|`` and move it to the micro:bit!
+That's all! Test your code with Alfie - hit ``|Download|`` and move it to the micro:bit! Remember to go back to the chapter!

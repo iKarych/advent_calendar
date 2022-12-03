@@ -15,7 +15,7 @@ Alfie has to alert Alex when it is ok to sneak into Grumio's room and when she n
 
 ## Step 2
 
-Alfie has 4 lights. We have to do few steps to turn them on.
+Alfie has 4 lights. We have to do a few steps to turn them on.
 
 First, choose ``||neopixel:Neopixel||`` from the toolbox.
 
@@ -23,9 +23,9 @@ First, choose ``||neopixel:Neopixel||`` from the toolbox.
 
 Pick the first block.
 
-We need to call our lights - let's call them ``||variables:lights||``. By default, they are called ``||variables:strip||``, but you can change them by clicking arrow next to the name and click ``||variables:Rename variable...||``
+We need to call our lights - let's call them ``||variables:lights||``. By default, they are called ``||variables:strip||``, but you can change them by clicking the arrow next to the name and clicking ``||variables:Rename variable...||``
 Then, we need to tell micro:bit where are the lights connected - all Alfie's lights are on ``||neopixel:P15||``.
-There are 4 lights, so type ``||neopixel:4||``.
+There are 4 lights, so put ``||neopixel:4||``.
 And let's leave the last option as ``||neopixel:RGB (GRB format)||`` - this tells micro:bit how to display colors correctly (RGB means [R]ed, [G]reen, [B]lue).
 
 
@@ -44,25 +44,25 @@ lights.showColor(neopixel.colors(NeoPixelColors.Green))
 
 ## Step 5
 
-Now it's time to correctly program the colors. To do that, we will use the skill that you learnt yesterday - buttons.
+Now it's time to correctly program the colors. To do that, we will use the skill that you learned yesterday - buttons.
 
 Put button A and button B blocks in the workspace. Let's make some logic:
 - when button A is pressed - it is safe; Alfie shows green colors,
 - when button B is pressed - Grumio alert, HIDE; Alfie shows red colors.
 
-Check out next step if you need some help!
+Check out the next step if you need some help!
 
 ## Step 5
 
-``|Download|`` when you are ready, and if you need some help, use the hint button.
+``|Download|`` when you are ready, and if you need some help, use the hint button. Then go back to the chapter!
 
 ```blocks
 let lights: neopixel.Strip = null
 lights = neopixel.create(DigitalPin.P15, 4, NeoPixelMode.RGB)
 input.onButtonPressed(Button.A, function () {
-    lights.showColor(neopixel.colors(NeoPixelColors.Green))
+ lights.showColor(neopixel.colors(NeoPixelColors.Green))
 })
 input.onButtonPressed(Button.B, function () {
-    lights.showColor(neopixel.colors(NeoPixelColors.Red))
+ lights.showColor(neopixel.colors(NeoPixelColors.Red))
 })
 ```
