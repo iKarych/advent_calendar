@@ -234,11 +234,11 @@ Distracting Storage-Elf
 
 ## Step 1
 
-To distract Storage-Elf, you must use all the skills that you have learnt so far! But don't worry micro:bit remembers everything, so it won't be hard!
+To distract Storage-Elf, you must use all the skills that you have learned so far! But don't worry micro:bit remembers everything, so it won't be hard!
 
 ## Step 2
 
-Let's start with a function. Function is a neat blue block ``||functions:function DistractStorageElf||`` where you can put other blocks and just run, so all the blocks run together! Clever, huh?
+Let's start with a function. A function is a neat blue block ``||functions:function DistractStorageElf||`` where you can put other blocks and just run, so all the blocks run together! Clever, huh?
 
 There is already a function for you in the workspace.
 
@@ -249,7 +249,7 @@ function DistractStorageElf () {
 
 ## Step 3
 
-micro:bit has placed all the things that you have learnt so far in this new blue block ``||Mission6:Mission 6||``. Open it and place ``||Mission6:play christmas song||``, ``||Mission6:dance||`` and ``||Mission6:flash lights||`` in your new function.
+micro:bit has placed all the things that you have learned so far in this new blue block ``||Mission6:Mission 6||``. Open it and place ``||Mission6:play christmas song||``, ``||Mission6:dance||`` and ``||Mission6:flash lights||`` in your new function.
 
 ## Step 4
 
@@ -257,12 +257,12 @@ If you are not sure how to do it, here's a hint
 
 ```block
 function DistractStorageElf () {
-    Mission6.ChristmasSong()
-    Mission6.Dance()
-    Mission6.Flash()
+ Mission6.ChristmasSong()
+ Mission6.Dance()
+ Mission6.Flash()
 }
 ```
 
 ## Step 5
 
-``|Download|`` when you are ready, and click button A to distract the elf!!!
+``|Download|`` when you are ready and click button A to distract the elf!!! Come back to the chapter.

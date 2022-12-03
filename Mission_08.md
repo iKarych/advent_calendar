@@ -39,3 +39,5 @@ Awesome! Now upload your code on micro:bit!
 ## Step 4
 
 One more thing, once Alfie displays a gift, take a picture with a phone and send it to us - rotoy@rotoy.dk
+
+And now get back to the chapter!

@@ -1,10 +1,10 @@
 ```template
 basic.forever(function () {
-    if (true) {
-    	
-    } else {
-    	
-    }
+ if (true) {
+ 
+ } else {
+ 
+ }
 })
 ```
 
@@ -20,7 +20,7 @@ Remember we briefly talked about variables in your Day 4 mission? Now it's time 
 
 ## Step 2
 
-A variable is like a container, it can store a value that we can later change or use it in a program elsewhere.
+A variable is like a container, it can store a value that we can later change or use in a program elsewhere.
 micro:bit uses red blocks ``||variables:variable||``, to create a new variable, just pick ``||variables:Variables||`` in your toolbox, and click "Make a variable...", then you just choose a name and that's it, you've created a variable.
 
 ## Step 3
@@ -29,7 +29,7 @@ Ok, let's try it with an example.
 
 We know that Alfie can speak sled-language, but we need to change it in micro:bit settings!
 
-Let's use a variable to store information if Alfie can speak sled-language or not. Create new variable and call it ``||variables:speakSled||``.
+Let's use a variable to store information if Alfie can speak sled-language or not. Create a new variable and call it ``||variables:speakSled||``.
 
 ## Step 4
 
@@ -42,11 +42,11 @@ We know that Alfie can only speak sled-language when it's being shaken (strange,
 ```block
 let speakSled = false
 basic.forever(function () {
-    if (input.isGesture(Gesture.Shake)) {
-        speakSled = true
-    } else {
-        speakSled = false
-    }
+ if (input.isGesture(Gesture.Shake)) {
+ speakSled = true
+ } else {
+ speakSled = false
+ }
 })
 ```
 
@@ -63,3 +63,7 @@ basic.showString("" + (speakSled))
 ## Step 7
 
 ``|Download|`` the code and test if micro:bit shows true or false, depending if you shake Alfie!
+
+## Step 8
+
+Come back to the chapter :)

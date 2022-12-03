@@ -6,7 +6,7 @@ Shake Alfie out of hypnosis!
 
 ## Step 1
 
-To help Alfie, we need to wake him up! How else to do that if not by gentling shaking him?
+To help Alfie, we need to wake him up! How else to do that if not by gently shaking him?
 
 There's a new block in your toolbox - check it out!
 
@@ -26,4 +26,4 @@ music.playSoundEffect(music.builtinSoundEffect(soundExpression.hello), SoundExpr
 
 ## Step 4
 
-Great! ``|Download|`` the code and wake up Alfie!
+Great! ``|Download|`` the code and wake up Alfie! And back to the chapter!
