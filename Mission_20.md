@@ -37,7 +37,7 @@ maqueen.motorStop(maqueen.Motors.All)
 
 ## Step 4
 
-Turning is a bit harder, so we need to use the same blocks are for spinning:
+Turning is a bit harder, so we need to use the same blocks as for spinning:
 1. left wheel goes forward and right wheel goes backward
 ``||maqueen:motor [left] move [Forward] at speed [100]||``, ``||maqueen:motor [right] move [Backward] at speed [100]||``
 2. we need to tell micro:bit how long should Alfie be turning - ``||Basic:pause (ms) [170]||``.
@@ -71,7 +71,7 @@ So ``||Functions:Functions||`` are very smart, they can hold other pieces of cod
 
 ## Step 8 @showhint
 
-Choose ``||Functions:Functions||`` in your Toolbox and click ``||Functions:Make a Function...||``. Now set the name, for example, ``||Functions:Function [goStraight]||``.
+Choose ``||Functions:Functions||`` in your Toolbox (under Advanced) and click ``||Functions:Make a Function...||``. Now set the name, for example, ``||Functions:Function [goStraight]||``.
 Now, try to move all the code that makes Alfie go straight. It should look like in the hint.
 
 ```block
@@ -105,6 +105,6 @@ maqueen.motorStop(maqueen.Motors.All)
 
 Taa daaa! Now you have shorter code! Instead of writing the same blocks three times, you have done that only once! Good job.
 
-P.S. You can also try and replace other pieces of blocks with function, for example, ``||Functions:call goLeft||`` and ``||Functions:call goRight||``.
+P.S. You can also try and replace other pieces of blocks with function, for example, ``||Functions:goLeft||`` and ``||Functions:goRight||``.
 
 ``|Download|`` and transfer the code to micro:bit! And return to the chapter!
