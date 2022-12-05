@@ -53,20 +53,20 @@ Awesome! Now, once you turn on the wheels, they will spin forever (or until Alfi
 maqueen.motorStop(maqueen.Motors.All)
 ```
 
-## Step 5
+## Step 6
 
 Try now to write a code that makes Alfie spin around and stops the motors afterwards. ``|Download|`` the code and test it!
 
 Did it work? No? Click next to find out why!
 
-## Step 6
+## Step 7
 
 One more issue that we have is that first, we asked micro:bit to turn on Alfie's wheels. And right after, we asked micro:bit to stop them.
 There was nothing wrong with your code but micro:bit right after turning the wheels on, turned them off. Literally in a blink of an eye, so you did not even see it.
 
 But do not worry, we can easily fix it!
 
-## Step 7 @showhint
+## Step 8 @showhint
 
 We need one more piece in our code ``||basic:pause (ms) []||``. Using pause, we tell micro:bit to wait for some time until it takes the next block, in that case until it turns off the wheels.
 Also, just so you know 1 second (s) equals 1000 milliseconds (ms), so don't be afraid to put big numbers in ``||basic:pause (ms) []||``.
@@ -79,11 +79,11 @@ maqueen.motorRun(maqueen.Motors.M2, maqueen.Dir.CCW, 100)
 basic.pause(1000)
 maqueen.motorStop(maqueen.Motors.All)
 ```
-## Step 8
+## Step 9
 
 So now, let's spin Alfie left for 1 second and then change direction for another 1 second and then stop it. Put everything in ``||input:on button A pressed||`` block, so that Alfie only spins when you press button A.
 
-## Step 9
+## Step 10
 
 Here's help if you need it
 

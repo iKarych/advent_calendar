@@ -46,7 +46,7 @@ if (input.temperature() >= 21 && input.soundLevel() >= 128) {
 
 Now just make Alfie spin (and smile) for 1 second when both conditions are true, otherwise stop the motors and show sad face.
 
-## Step 5
+## Step 6
 
 Here's hint in case you need it.
 
@@ -64,7 +64,7 @@ basic.forever(function () {
 })
 ```
 
-## Step 6
+## Step 7
 
 ``|Download|`` the code and check if you can make Alfie move.
 

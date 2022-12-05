@@ -85,7 +85,7 @@ basic.forever(function () {
 ```
 
 
-## Step 6
+## Step 7
 
 ``|Download|`` the code and see if Alfie is good to go!
 Remember that you can warm Alfie by blowing warm air on micro:bit [only with your mouth!!! ``|DO NOT USE|`` hair dryer, it might melt Alfie :( ]
