@@ -22,14 +22,14 @@ So you need to 2 things:
 
 For the first part, micro:bit already prepared for you useful functions - check them out in ``||Mission23:Mission23||`` in your toolbox.
 Remember to:
-- place the instruction in ``||Loop:repeat||`` loop (for example, 4 times),
+- place the instruction in ``||Loops:repeat||`` loop (for example, 4 times),
 - adjust the time Alfie needs to turn to make a 90° right turn,
 - adjust the time Alfie needs to go 30 cm straight
 - stop the motors at the end
 
 ## Step 4
 
-For the second part, insert ``||Logic:if else||`` in ``||Loop:repeat||`` loop and the following logic:
+For the second part, insert ``||Logic:if else||`` in ``||Loops:repeat||`` loop and the following logic:
 - if ``||Input:light level||`` is less than 10, flash Alfie's lights (micro:bit prepared a function for you for that too ``||Mission23:flash lights []||``).
 - else, turn the lights off
 
