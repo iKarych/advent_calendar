@@ -43,10 +43,13 @@ Remember to:
 For the second part, insert ``||Logic:if else||`` in ``||Loops:repeat||`` loop and the following logic:
 - if ``||Input:light level||`` is less than 10, flash Alfie's lights (micro:bit prepared a function for you for that too ``||Mission23:flash lights []||``).
 - else, turn the lights off
+- remember to also turn off the lights after Alfie is done moving, so after you stop all the motors (outside of ``||Loops:repeat||`` loop).
 
 ## Step 5
 
 Awesome, put it together and test it. ``|Download|`` the code and come back to the chapter!
+
+If you issues with lights staying on, try flashing micro:bit with a flashlight on your phone.
 
 P.S. There is extra challenge - go next if you feel adventurous!
 
