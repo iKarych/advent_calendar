@@ -55,6 +55,8 @@ Alright, if you're really stuck, there's help for you! Proceed with caution!
 
 ## Step 9
 
+Then, here it is!
+
 ```blocks
 function goStraight () {
     maqueen.motorRun(maqueen.Motors.All, maqueen.Dir.CW, 100)
