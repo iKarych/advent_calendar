@@ -17,10 +17,12 @@ And perhaps use one of the button blocks to call it everytime you press it.
 
 Here's a hint if you need it:
 
+```block
 input.onButtonPressed(Button.A, function () {
     basic.showNumber(input.temperature())
 })
+```
 
 ## Step 4
 
-Now ``|Download|`` the code and go measure temperature in different places. Remember, you might want to wait a bit (a minute) for the sensor to show the correct temperature.
+Now ``|Download|`` the code and go measure temperature in different places. Remember, you might want to wait a bit (a minute) for the sensor to show the correct temperature. Come back to the chapter.

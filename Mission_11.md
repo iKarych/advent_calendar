@@ -65,4 +65,4 @@ shakenNumber = 0
 
 ## Step 7
 
-``|Download|`` the code and try to find out how much shaking is required to wake up Alfie!
+``|Download|`` the code and try to find out how much shaking is required to wake up Alfie! And get back to the chapter.

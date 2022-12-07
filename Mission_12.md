@@ -81,4 +81,4 @@ input.onGesture(Gesture.Shake, function () {
 
 ## Step 6
 
-``|Download|`` the code and open the box!
+``|Download|`` the code and open the box! Come back to the chapter.

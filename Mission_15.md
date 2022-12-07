@@ -1,32 +1,3 @@
-```customts
-let played = false
-basic.forever(function () {
-    if (shakenFiveTimes && !(played)) {
-        basic.showLeds(`
-            . . . . .
-            # . . . #
-            . # . # .
-            . # # # .
-            . # # # .
-            `)
-        music.startMelody(music.builtInMelody(Melodies.Entertainer), MelodyOptions.Once)
-        played = true
-    } else if (!(played)) {
-        basic.showLeds(`
-            . # . # .
-            . . # . .
-            . # # # .
-            . # # # .
-            . # # # .
-            `)
-    }
-})
-```
-
-```template
-let shakenFiveTimes = false
-```
-
 # Day 15
 
 ## Introduction @showdialog
@@ -88,4 +59,4 @@ basic.forever(function () {
 ## Step 7
 
 ``|Download|`` the code and see if Alfie is good to go!
-Remember that you can warm Alfie by blowing warm air on micro:bit [only with your mouth!!! ``|DO NOT USE|`` hair dryer, it might melt Alfie :( ]
+Remember that you can warm Alfie by blowing warm air on micro:bit [only with your mouth!!! ``|DO NOT USE|`` hair dryer, it might melt Alfie :( ] Go back to the chapter!
