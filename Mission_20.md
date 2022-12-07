@@ -41,7 +41,7 @@ Turning is a bit harder, so we need to use the same blocks as for spinning:
 1. left wheel goes forward and right wheel goes backward
 ``||maqueen:motor [left] move [Forward] at speed [100]||``, ``||maqueen:motor [right] move [Backward] at speed [100]||``
 2. we need to tell micro:bit how long should Alfie be turning - ``||Basic:pause (ms) [170]||``.
-And that's the tricky part - let's say that we want to have a perfect, sharp left turn (turn by 90°). But micro:bit can only use time, not degrees, so we cannot tell Alfie to turn by 90 degrees.
+And that's the tricky part - let's say that we want to have a perfect, sharp right turn (turn by 90°). But micro:bit can only use time, not degrees, so we cannot tell Alfie to turn by 90 degrees.
 Instead, we have to figure out how long time it takes to turn Alfie by 90 degrees.
 3. stop the motors - ``||maqueen:motor [all] stop||``.
 
@@ -95,7 +95,7 @@ maqueen.motorRun(maqueen.Motors.M2, maqueen.Dir.CW, 100)
 basic.pause(170)
 goStraight()
 maqueen.motorRun(maqueen.Motors.M2, maqueen.Dir.CCW, 100)
-maqueen.motorRun(maqueen.Motors.M1, maqueen.Dir.CCW, 100)
+maqueen.motorRun(maqueen.Motors.M1, maqueen.Dir.CW, 100)
 basic.pause(170)
 goStraight()
 maqueen.motorStop(maqueen.Motors.All)

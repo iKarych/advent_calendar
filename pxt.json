@@ -33,7 +33,9 @@
         "Mission_18.md",
         "Mission_13.md",
         "Mission_20.md",
-        "Mission_21.md"
+        "Mission_21.md",
+        "Mission_22.md",
+        "Mission_23.md"
     ],
     "testFiles": [
         "test.ts"
