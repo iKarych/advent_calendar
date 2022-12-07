@@ -104,12 +104,6 @@ namespace Mission23 {
     export let led0: neopixel.Strip = null
     export let strip: neopixel.Strip = null
 
-    strip = neopixel.create(DigitalPin.P15, 4, NeoPixelMode.RGB)
-    led0 = strip.range(0, 1)
-    led1 = strip.range(1, 1)
-    led2 = strip.range(2, 1)
-    led3 = strip.range(3, 1)
-
     //% block="go straight for %time ms"
     export function goStraight(time: number) {
         maqueen.motorRun(maqueen.Motors.All, maqueen.Dir.CW, 100)

@@ -1,6 +1,17 @@
+```customts
+Mission23.strip = neopixel.create(DigitalPin.P15, 4, NeoPixelMode.RGB)
+Mission23.led0 = Mission23.strip.range(0, 1)
+Mission23.led1 = Mission23.strip.range(1, 1)
+Mission23.led2 = Mission23.strip.range(2, 1)
+Mission23.led3 = Mission23.strip.range(3, 1)
+```
+
 ```package
 maqueen=github:dfrobot/pxt-maqueen#v1.7.2
+neopixel=github:microsoft/pxt-neopixel#v0.7.3
 ```
+
+    
 
 # Day 23
 
@@ -60,4 +71,4 @@ for (let index = 0; index < 4; index++) {
 
 ## Step 6
 
-So micro:bit prepared quite a few functions, but can you solve the mission also without them! Try to modify your code so that everything is done without using stuff from ``||Mission23:Mission23||``
+So micro:bit prepared quite a few functions, but can you solve the mission also without them! Try to modify your code so that everything (except the lights under Alfie) is done without using stuff from ``||Mission23:Mission23||``
