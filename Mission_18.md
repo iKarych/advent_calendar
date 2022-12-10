@@ -69,4 +69,4 @@ basic.forever(function () {
 ``|Download|`` the code and check if you can make Alfie move.
 
 Remember that you can warm Alfie by blowing warm air on micro:bit [only with your mouth!!! ``|DO NOT USE|`` hair dryer, it might melt Alfie :( ]
-And you might want to scream loud to cheer Alfie enough!!!
+And you might want to scream loud to cheer Alfie enough!!! Come back to the chapter afterwards!
