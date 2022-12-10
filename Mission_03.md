@@ -20,7 +20,7 @@ First, you should see ``||basic:on start||`` block - whatever you put in this bl
 
 ## Step 2
 
-Inside ``||basic:on start||`` block is ``||music:play tone Middle B for 1 beat||``. That means that Rotoy will play music note B for 1 beat.
+Inside ``||basic:on start||`` block is ``||music:play tone Middle B for 1 beat||``. That means that Alfie will play music note B for 1 beat.
 
 ## Step 3
 
